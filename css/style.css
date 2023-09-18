@@ -1,6 +1,9 @@
 body{
     margin: 0px;
     font-family: 'Russo One', sans-serif;
+    background: url("../images/all\ bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
 }
 .fixed-menubar{
     position: fixed;
