@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    font-family: 'Russo One', sans-serif;
+}
+.fixed-menubar{
+    position: fixed;
+    margin-top: -80px;
+    margin-left: 12%;
+    background: url(../images/fire.gif);
+    padding: 5px 36px;
+    padding-right: 34px;
+}
+
+.menubar{}
+.menubar nav{}
+.menubar ul{}
+.menubar li{
+    display: inline;
+}
+.menubar a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    background: -webkit-linear-gradient(45deg,lightblue,blue,cyan);
+    border-left: 3px solid white;
+    border-image: url("../images/fire.gif");
+    border-image-slice: 1;
+    color: seashell;
+}
+.menubar a:hover{
+    background: url("../images/a2.gif");
+    transition: 0.5s;
+    color:white;
+}
+.normal-menubar{
+    margin-top: 80px;
+    background: url(../images/normal.gif);
+    padding: 1px;
+}
+.chide{
+    margin-left: 4%;
+}
+.position a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+   background: -webkit-linear-gradient(90deg,lightsalmon,orange,brown);
+    border-left: 3px solid white;
+    border-image: url("../images/fire.gif");
+    border-image-slice: 1;
+    color: black;
+}
+.top-banner{
+    height: 500px;
+    background: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 40%;
+    margin-left:3% ;
+    padding: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background: url("../images/fire.gif");
+    color: darksalmon;
+    border-radius: 5px;
+}
+.half-width a:hover{
+    background: url("../images/a.gif");
+    transition: 0.5s;
+    color: aquamarine;
+}
+.dream-area{
+    height: 500px;
+    background: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width button{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background: url("../images/normal.gif");
+    color: darksalmon;
+    border-radius: 5px;
+}
+.half-width button:hover{
+    background: -webkit-linear-gradient(180deg,lightsalmon,salmon,darksalmon);
+    transition: 0.5s;
+    color: white;
+}
+.experience{
+    height: 500px;
+    background: url("../images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+.single-experience{
+    height: 60%;
+    box-shadow: 10px 10px 40px gray;
+    background: wheat;
+}
+#full-stack{
+    border-left: 7px solid white;
+    border-image: url("../images/fire.gif");
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: url("../images/nomal\ bg.jpg");
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
